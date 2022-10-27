@@ -1,70 +1,76 @@
-# Getting Started with Create React App
+![](/projectimage.jpg)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Math magicians
+> This is a web application (web Calculator) where you can do basic mathematical computations. It was build using ReactJs
+> I created a react component called Calculator that held the functionality of the app
 
-## Available Scripts
+## Description Video
 
-In the project directory, you can run:
+[Not Available]()
 
-### `npm start`
+## Built With
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- HTML
+- CSS
+- JavaScript (ES6)
+- Linters
+- React
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Live Demo
+[Live Demo](https://ndorrh.github.io/mathmagicians/)
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Getting Started
+To get a local copy up and running follow these simple example steps.
+1. Clone the project using `git clone` or just copy the command below:
+  ```
+   git clone https://github.com/ndorrh/mathmagicians/
+   ```
+2. Open the project with `Visual Studio Code`
+3. Run `npm install` to get the dependencies
 
-### `npm run build`
+   *not sure how to use npm? Read [this](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm).*
+4. Run the webpack server using this command:
+  ```
+   npm start
+   ```
+  *not sure how to use npm? Read [this](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm).*
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Prerequisites
+- Having VsCode installed and configured.
+- Having Git installed and configured.
+### OR
+- A smart phone or laptop to use the app directly.
+- Internet connection
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Setup
+- Clone the repository.
+- Open the project folder in VS Code.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Authors
 
-### `npm run eject`
+👤 **Ndorrh Oswald Ebu**
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- GitHub: [@ndorrh](https://github.com/ndorrh)
+- Twitter: [@ndorrh](https://twitter.com/ndorrh)
+- LinkedIn: [ndorrh](https://www.linkedin.com/in/ndorrh-oswald-ebu-82ab02236/)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 🤝 Contributing
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Contributions, issues, and feature requests are welcome!
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Feel free to check the [issues page](https://github.com/ndorrh/mathmagicians/issues).
 
-## Learn More
+## Show your support
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Give a ⭐️ if you like this project!
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Acknowledgments
 
-### Code Splitting
+- Hat tip to anyone whose code was used
+- Inspiration
+- etc
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## 📝 License
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is [MIT](./MIT.md) licensed.
