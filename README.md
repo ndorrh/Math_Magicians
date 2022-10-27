@@ -17,7 +17,7 @@
 - React
 
 ## Live Demo
-[Github Pages](https://ndorrh.github.io/FinalCapstoneJavascript/)
+[Live Demo](https://ndorrh.github.io/mathmagicians/)
 
 
 ## Getting Started
