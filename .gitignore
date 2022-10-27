@@ -8,6 +8,8 @@
 # testing
 /coverage
 
+calculator1.js
+
 # production
 /build
 
