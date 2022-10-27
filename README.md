@@ -1,12 +1,12 @@
 ![](/projectimage.jpg)
 
-# Final Capstone Project 2: Chicken meal Webapp
-> This is a web application where you can get information about how to cook different chicken meals. It was build using two external APIs (Themealdb API and Microverse Involvement API).
-> The webapp have 2 user interfaces that is the home page where users can directly like the different chicken meals and the comment popup where users can drop their comments about the meal.
+# Math magicians
+> This is a web application (web Calculator) where you can do basic mathematical computations. It was build using ReactJs
+> I created a react component called Calculator that held the functionality of the app
 
 ## Description Video
 
-[Description Video](https://drive.google.com/file/d/1WgJiRkdYmPa7olVZSh8oYnNXpPd-FHac/view?usp=sharing)
+[Not Available]()
 
 ## Built With
 
@@ -14,10 +14,7 @@
 - CSS
 - JavaScript (ES6)
 - Linters
-- Webpack
-- TheMealdb API
-- Involvement API from Microverse
-- Jest
+- React
 
 ## Live Demo
 [Github Pages](https://ndorrh.github.io/FinalCapstoneJavascript/)
@@ -27,7 +24,7 @@
 To get a local copy up and running follow these simple example steps.
 1. Clone the project using `git clone` or just copy the command below:
   ```
-   git clone https://github.com/ndorrh/Leaderboard.git
+   git clone https://github.com/ndorrh/mathmagicians/
    ```
 2. Open the project with `Visual Studio Code`
 3. Run `npm install` to get the dependencies
@@ -58,17 +55,11 @@ To get a local copy up and running follow these simple example steps.
 - Twitter: [@ndorrh](https://twitter.com/ndorrh)
 - LinkedIn: [ndorrh](https://www.linkedin.com/in/ndorrh-oswald-ebu-82ab02236/)
 
-👤 **Justo Rago**
-
-- GitHub: [@githubhandle](https://github.com/asdt560)
-- Twitter: [@twitterhandle](https://twitter.com/JustoRago)
-- LinkedIn: [LinkedIn]( www.linkedin.com/in/justo-rago-0714b5208)
-
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/ndorrh/FinalCapstoneJavascript/issues).
+Feel free to check the [issues page](https://github.com/ndorrh/mathmagicians/issues).
 
 ## Show your support
 
