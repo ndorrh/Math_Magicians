@@ -13,6 +13,7 @@ class TodoItem extends React.Component {
           checked={todo.completed}
           onChange={() => handleChangeProps(todo.id)}
         />
+        {' '}
         <button type="button" onClick={() => deleteTodo(todo.id)}>Delete</button>
         {' '}
         {todo.title}
