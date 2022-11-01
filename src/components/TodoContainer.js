@@ -28,12 +28,23 @@ class TodoContainer extends React.Component {
     };
   }
 
+  toggle = (id) => {
+    this.setState((preState) => {
+      const updatedTodos = preState.todos.map((todo) => {
+        if (todo.id === id) { return { ...todo, completed: !todo.completed }; }
+        return todo;
+      });
+      // console.log(thruth);
+      return { todos: updatedTodos };
+    });
+  }
+
   render() {
     const { todos } = this.state;
     return (
       <div>
         <Header />
-        <TodosList todos={todos} />
+        <TodosList todos={todos} handleChangeProps={this.toggle} />
       </div>
     );
   }
