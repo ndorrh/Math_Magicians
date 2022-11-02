@@ -1,0 +1,21 @@
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin: 2% 0;
+}
+
+.heading {
+  font-size: 1.8rem;
+}
+
+@media screen and (max-width: 425px) {
+  .container {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .heading {
+    text-align: center;
+  }
+}

@@ -1,7 +1,8 @@
 ![](/projectimage.jpg)
 
 # Math magicians
-> This is a web application (web Calculator) where you can do basic mathematical computations. It was build using ReactJs
+> This is a web application (web Calculator) where you can do basic mathematical computations. It is made up of 3 pages; the Home page, The Quote page and Calculator page.
+> It was build using ReactJs
 > I created a react component called Calculator that held the functionality of the app
 
 ## Description Video
