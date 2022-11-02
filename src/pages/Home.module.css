@@ -1,4 +1,5 @@
 .main {
+  width: 100%;
   margin-top: 2%;
   display: flex;
   flex-direction: column;
@@ -13,4 +14,11 @@
 .para {
   font-size: 1.5rem;
   font-weight: 200;
+}
+
+@media screen and (max-width: 425px) {
+  .welcome,
+  .para {
+    text-align: center;
+  }
 }

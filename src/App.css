@@ -4,12 +4,17 @@
   box-sizing: border-box;
 }
 
+body {
+  background-color: rgb(212, 122, 254);
+}
+
 #root {
   width: 96%;
   margin: 2% auto 2%;
 }
 
 .navbar {
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -18,7 +23,6 @@
 .navbar ul {
   display: flex;
   justify-content: space-between;
-  width: 15%;
 }
 
 .navbar h1 {
@@ -30,7 +34,16 @@
   list-style: none;
   height: 20px;
   align-items: center;
-  justify-content: flex-start;
+}
+
+.quote,
+.home {
+  width: 50px;
+}
+
+.quote {
+  display: flex;
+  justify-content: flex-end;
 }
 
 .cal {
@@ -51,8 +64,9 @@
 }
 
 .cal-container {
-  height: 480px;
+  height: 80vh;
   width: 60%;
+  border-radius: 10px;
 }
 
 table {
@@ -76,4 +90,20 @@ table {
 td {
   background-color: #e0e0e0;
   text-align: center;
+}
+
+@media screen and (max-width: 425px) {
+  .navbar {
+    flex-direction: column;
+    order: 5;
+  }
+
+  .navbar h1 {
+    order: 5;
+  }
+
+  .cal-container {
+    width: 98%;
+    margin: 0 auto;
+  }
 }
