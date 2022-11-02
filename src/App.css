@@ -12,12 +12,17 @@
 .navbar {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .navbar ul {
   display: flex;
   justify-content: space-between;
   width: 15%;
+}
+
+.navbar h1 {
+  font-size: 2.5rem;
 }
 
 .navbar ul li {
@@ -46,8 +51,8 @@
 }
 
 .cal-container {
-  height: 50vh;
-  width: 26%;
+  height: 480px;
+  width: 60%;
 }
 
 table {
