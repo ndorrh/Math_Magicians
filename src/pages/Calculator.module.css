@@ -1,33 +1,9 @@
-.cal-container {
-  height: 50vh;
-  width: 26%;
-}
-
-table {
-  background-color: #d4d4d4;
-  table-layout: fixed;
-}
-
-#display {
-  background-color: #858694;
-  color: white;
-  text-align: right;
-  padding-right: 2px;
-  font-size: 20px;
-  height: 55px;
-}
-
-.orange {
-  background-color: #f5913e;
-}
-
-td {
-  background-color: #e0e0e0;
-  text-align: center;
-}
-
 .container {
   display: flex;
   justify-content: space-between;
-  color: red;
+  margin: 2% 0;
+}
+
+.heading {
+  font-size: 2rem;
 }

@@ -4,7 +4,7 @@ import styles from './Calculator.module.css';
 
 const CalculatorPage = () => (
   <div className={styles.container}>
-    <h3>Let&apos;s do some maths!</h3>
+    <p className={styles.heading}>Let&apos;s do some maths!</p>
     <Calculator />
   </div>
 );

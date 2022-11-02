@@ -4,6 +4,47 @@
   box-sizing: border-box;
 }
 
+#root {
+  width: 96%;
+  margin: 2% auto 2%;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar ul {
+  display: flex;
+  justify-content: space-between;
+  width: 15%;
+}
+
+.navbar ul li {
+  display: flex;
+  list-style: none;
+  height: 20px;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.cal {
+  border-right: solid grey;
+  border-left: solid grey;
+  width: 90px;
+}
+
+.cal a {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar ul li a {
+  color: blue;
+  text-align: left;
+}
+
 .cal-container {
   height: 50vh;
   width: 26%;
