@@ -4,8 +4,25 @@ function Home() {
   return (
     <>
       <main>
-        <h2>Welcome to the homepage!</h2>
-        <p>You can do this, I believe in you.</p>
+        <h3>Welcome to our page!</h3>
+        <p>
+          {' '}
+          Lorem ipsum dolor sit, amet consectetur adipisicing
+          elit.Nisi accusantium est quisquam eaque ipsum
+          perspiciatis veritatis repellendus?Explicabo iusto
+          nihil officia fugit delectus nobis, voluptate, quis
+          vero fuga veniam eum.Lorem ipsum dolor sit, amet conse
+          ctetur adipisicing elit.Nisi accusantium est quisquam eaque ipsum perspiciatis veritatis.
+        </p>
+        <p>
+          {' '}
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+          Nisi accusantium est quisquam eaque ipsum perspiciatis
+          veritatis repellendus?Explicabo iusto nihil officia
+          fugit delectus nobis, voluptate, quis vero fuga veniam eum.
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+          Nisi accusantium est quisquam eaque ipsum perspiciatis veritatis.
+        </p>
       </main>
     </>
   );
