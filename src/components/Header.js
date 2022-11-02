@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 
 const Header = () => (
   <nav>
+    <h1>Math Magicians</h1>
     <ul>
       <li><Link to="/">Home</Link></li>
       <li><Link to="/Calculator">Calculator</Link></li>
