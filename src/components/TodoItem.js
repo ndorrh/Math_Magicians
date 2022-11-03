@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/no-static-element-interactions */
 /* eslint-disable react/prop-types */
 import React from 'react';
 import styles from './moduleCss/TodoItem.module.css';
@@ -39,7 +40,7 @@ class TodoItem extends React.Component {
     return (
       <li className={styles.item}>
         {' '}
-        <div onClick={this.handleEditing} style={viewMode}>
+        <div onDoubleClick={this.handleEditing} style={viewMode}>
           <input
             type="checkbox"
             className={styles.checkbox}
